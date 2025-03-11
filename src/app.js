@@ -14,7 +14,6 @@ app.post('/', (req, res) => {
   dynamicStatic.setPath(path.join(__dirname, 'public', 'stylesheets', req.body.style.toLowerCase()))
   res.redirect('/')
 })
-app.get('/robots.txt', (req, res) => res.sendFile(path.join(__dirname, 'views/robots.txt')))
 
 app.use((req, res) =>res.sendFile(path.join(__dirname, 'views/404.html')));
 
