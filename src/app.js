@@ -10,7 +10,7 @@ app.use(dynamicStatic)
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'views/index.html')))
 app.post('/', (req, res) => {
-  if (req.body.style == '') req.body.style = 'molecule'
+  if (!req.body.style) req.body.style = 'magic'
   dynamicStatic.setPath(path.join(__dirname, 'public', 'stylesheets', req.body.style.toLowerCase()))
   res.redirect('/')
 })
