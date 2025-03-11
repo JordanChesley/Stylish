@@ -1,0 +1,25 @@
+h1 {
+  color: purple;
+}
+
+li {
+  list-style-type: square;
+  color: rgb(251, 231, 255);
+}
+::marker {
+  color: rgb(249, 168, 238);
+}
+
+input {
+  width: 160px;
+  border: 0;
+  border-bottom: 2px solid black;
+  background: none;
+  outline: none;
+  transition: width 0.4s, border-bottom 0.4s;
+}
+
+input:focus {
+  width: 200px;
+  border-bottom: 4px solid purple;
+}

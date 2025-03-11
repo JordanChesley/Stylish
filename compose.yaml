@@ -1,0 +1,7 @@
+services:
+  stylish:
+    image: jordanchesley/stylish
+    container_name: stylish
+    tty: true
+    ports:
+    - 3000:3000

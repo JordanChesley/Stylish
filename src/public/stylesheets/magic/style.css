@@ -1,0 +1,26 @@
+h1 {
+  font-size: 24px;
+  color: green;
+}
+
+::marker {
+  color: green;
+  font-size: 20px;
+}
+
+input {
+  width: 160px;
+  border: none;
+  border-left: 0px solid black;
+  border-bottom: 2px solid black;
+  background: none;
+  outline: none;
+  padding-left: 4px;
+  padding-bottom: 2px;
+  transition: border-left 0.2s, border-bottom 0.2s;
+}
+
+input:focus {
+  border-left: 3px solid green;
+  border-bottom: 3px solid green;
+}
