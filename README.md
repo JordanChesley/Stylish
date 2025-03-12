@@ -1,6 +1,8 @@
 # Stylish
 A CTF challenge involving a vulnerable website.
 
+> Looking for some awesome styles for your webpages? Check out my new site, where you can live preview these epic stylesheets!
+
 ## Setup
 Minimally, you only need Docker to run the challenge.
 ```sh
@@ -13,4 +15,4 @@ docker compose up -d
 The container will bind to your port 3000. Feel free to modify this port as necessary.
 
 ## Challenge
-In order to solve the challenge, you can refer to the source code to find the vulnerability. Exploit the container to try to get the flag!
+Feel free to look at the source code to find the vulnerability. Try to see if you can get the contents of the `flag.txt` file!
