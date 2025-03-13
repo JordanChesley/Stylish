@@ -15,4 +15,4 @@ docker compose up -d
 The container will bind to your port 3000. Feel free to modify this port as necessary.
 
 ## Challenge
-Feel free to look at the source code to find the vulnerability. Try to see if you can get the contents of the `flag.txt` file!
+Feel free to look at the source code to find the vulnerability. Try to see if you can get the contents of the `/flag.txt` file!
